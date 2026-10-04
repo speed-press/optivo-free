@@ -1,0 +1,24 @@
+#toplevel_page_sppa-addons .wp-menu-image img,
+#toplevel_page_spls-licenses .wp-menu-image img {
+	width: 20px !important;
+	height: 20px !important;
+	padding: 6px 0 0 !important;
+	opacity: 1 !important;
+}
+#toplevel_page_sppa-addons .wp-menu-image,
+#toplevel_page_spls-licenses .wp-menu-image {
+	background: none !important;
+}
+#toplevel_page_sppa-addons .wp-menu-image:before,
+#toplevel_page_spls-licenses .wp-menu-image:before {
+	content: none !important;
+	display: none !important;
+}
+#adminmenu .wp-submenu a[href*="page=sppa-go-pro"] {
+	color: #7c3aed !important;
+	font-weight: 650;
+}
+a.sppa-go-pro-link {
+	color: #7c3aed;
+	font-weight: 700;
+}
